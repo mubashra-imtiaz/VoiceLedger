@@ -4,7 +4,7 @@
 
 # VoiceLedger
 
-🔗 **Live Demo:** [voice-ledger-eight.vercel.app](https://voice-ledger-eight.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🔗_LIVE_DEMO-Try_the_App-brightgreen?style=for-the-badge&logo=vercel)](https://voice-ledger-eight.vercel.app/)
 
 ### Order & Debt Manager for Shopkeepers — Powered by AI, Built for the Khaata
 
@@ -137,52 +137,6 @@ Shopkeeper speaks/types order
 ```
 
 If the shopkeeper is offline when an order is added, it is cached locally by the PWA and automatically pushed to Firebase as soon as connectivity returns — no data is lost.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (LTS recommended)
-- A Firebase project (Firestore + Authentication enabled)
-- A Google Gemini API key
-- A Vercel account (for deployment)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/voiceledger.git
-cd voiceledger
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env.local
-```
-
-Add your credentials to `.env.local`:
-
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-NEXT_PUBLIC_FIREBASE_APP_ID=
-GEMINI_API_KEY=
-```
-
-### Run locally
-
-```bash
-npm run dev
-```
-
-### Deploy
-
-The app auto-deploys to **Vercel** on every push to the `main` branch via GitHub integration.
 
 ---
 
