@@ -33,7 +33,7 @@ No manual forms. No complicated data entry. Just talk, review, sign, and save.
 - Offline-first design: data entered without an internet connection is synced automatically to Firebase the moment the device reconnects.
 
 <p align="center">
-  <img src="./screenshots/01-signin.png" alt="Sign in screen" width="600"/>
+  <img src="./workflow_screenshot/01-signin.png" alt="Sign in screen" width="600"/>
 </p>
 
 ### 📊 Dashboard
