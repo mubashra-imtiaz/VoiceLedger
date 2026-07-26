@@ -4,7 +4,7 @@
 
 # VoiceLedger
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20App-success?logo=vercel)](https://voice-ledger-eight.vercel.app/)
+🔗 **Live Demo:** [voice-ledger-eight.vercel.app](https://voice-ledger-eight.vercel.app/)
 
 ### Order & Debt Manager for Shopkeepers — Powered by AI, Built for the Khaata
 
