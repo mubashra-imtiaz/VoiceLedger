@@ -45,7 +45,7 @@ No manual forms. No complicated data entry. Just talk, review, sign, and save.
 - **Reminders panel** listing customers with upcoming or overdue dues, each with one-tap **WhatsApp reminder** and **call** buttons.
 
 <p align="center">
-  <img src="./screenshots/04-dashboard-reminders.png" alt="Dashboard with reminders" width="700"/>
+  <img src="./workflow_screenshot/04-dashboard-reminders.png" alt="Dashboard with reminders" width="700"/>
 </p>
 
 ### 🎙️ AI-Powered Quick Add Order
