@@ -61,9 +61,9 @@ The core feature of VoiceLedger. A shopkeeper can **type or speak** an order exa
 - The outstanding **balance** is calculated automatically.
 
 <p align="center">
-  <img src="./screenshots/02-dashboard.png" alt="Quick Add Order" width="700"/>
+  <img src="./workflow_screenshot/02-dashboard.png" alt="Quick Add Order" width="700"/>
   &nbsp;&nbsp;
-  <img src="./screenshots/03-review-order.png" alt="Review order popup with signature" width="330"/>
+  <img src="./workflow_screenshot/03-review-order.png" alt="Review order popup with signature" width="330"/>
 </p>
 
 ### 👥 Customers (Khaata / Ledger)
@@ -77,12 +77,12 @@ The core feature of VoiceLedger. A shopkeeper can **type or speak** an order exa
   - Quick-access **WhatsApp**, **Send Reminder**, and **Call** buttons
 
 <p align="center">
-  <img src="./screenshots/05-customers-ledger.png" alt="Customers / Khaata list" width="600"/>
+  <img src="./workflow_screenshot/05-customers-ledger.png" alt="Customers / Khaata list" width="600"/>
 </p>
 <p align="center">
-  <img src="./screenshots/07-customer-history.png" alt="Customer history and receipt" width="330"/>
+  <img src="./workflow_screenshots/07-customer-history.png" alt="Customer history and receipt" width="330"/>
   &nbsp;&nbsp;
-  <img src="./screenshots/06-export-csv.png" alt="Exported ledger CSV" width="500"/>
+  <img src="./workflow_screenshot/06-export-csv.png" alt="Exported ledger CSV" width="500"/>
 </p>
 
 ### ⚙️ Settings
