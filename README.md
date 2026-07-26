@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./screenshots/01-signin.png" alt="VoiceLedger banner" width="120"/>
+<img src="./workflow_screenshots/00-icon.jpeg" alt="VoiceLedger banner" width="120"/>
 
 # VoiceLedger
 
