@@ -4,6 +4,8 @@
 
 # VoiceLedger
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20App-success?logo=vercel)](https://voice-ledger-eight.vercel.app/)
+
 ### Order & Debt Manager for Shopkeepers — Powered by AI, Built for the Khaata
 
 VoiceLedger digitizes the traditional *khaata* (credit ledger) that local shopkeepers have kept on paper for generations — replacing it with a fast, AI-assisted, offline-capable web app that works in the shopkeeper's own language.
