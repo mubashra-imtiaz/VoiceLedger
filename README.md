@@ -80,7 +80,7 @@ The core feature of VoiceLedger. A shopkeeper can **type or speak** an order exa
   <img src="./workflow_screenshot/05-customers-ledger.png" alt="Customers / Khaata list" width="600"/>
 </p>
 <p align="center">
-  <img src="./workflow_screenshots/07-customer-history.png" alt="Customer history and receipt" width="330"/>
+  <img src="./workflow_screenshot/07-customer-history.png" alt="Customer history and receipt" width="330"/>
   &nbsp;&nbsp;
   <img src="./workflow_screenshot/06-export-csv.png" alt="Exported ledger CSV" width="500"/>
 </p>
