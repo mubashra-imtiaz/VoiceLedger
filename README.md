@@ -47,7 +47,7 @@ No manual forms. No complicated data entry. Just talk, review, sign, and save.
   - **Outstanding Udhaar** — total pending credit
   - **Collected Today (Vasooli)** — payments received today
   - **Active Debtors** — number of customers with an open balance
-- Live **due/overdue payment alerts** banner.
+- Live **due payment alerts** banner.
 - **Reminders panel** listing customers with upcoming or overdue dues, each with one-tap **WhatsApp reminder** and **call** buttons.
 
 <p align="center">
