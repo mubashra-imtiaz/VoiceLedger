@@ -47,7 +47,7 @@ No manual forms. No complicated data entry. Just talk, review, sign, and save.
   - **Outstanding Udhaar** — total pending credit
   - **Collected Today (Vasooli)** — payments received today
   - **Active Debtors** — number of customers with an open balance
-- Live **due payment alerts** banner.
+- Live **due/overdue payment alerts** banner.
 - **Reminders panel** listing customers with upcoming or overdue dues, each with one-tap **WhatsApp reminder** and **call** buttons.
 
 <p align="center">
@@ -66,7 +66,7 @@ The core feature of VoiceLedger. A shopkeeper can **type or speak** an order exa
 - A **signature pad** lets the customer confirm the order digitally, right on the same screen.
 - The outstanding **balance** is calculated automatically.
 
-**Model:** Google AI Studio — `gemini-1.5-flash`
+**Model:** Google AI Studio — `gemini flash`
 **Output Mode:** Strict JSON (`application/json`)
 
 <details>
@@ -118,6 +118,10 @@ The parsed JSON pre-fills the Review Order form — the shopkeeper always review
 - Sign out
 - Generate business reports
 
+<p align="center">
+  <img src="./workflow_screenshot/08-settings.png" alt="Account settings" width="700"/>
+</p>
+
 ### 🌐 Accessibility & Personalization
 - **Bilingual interface** — instantly switch between **English and Urdu** (with full RTL support) via the language toggle.
 - **Dark / light mode** toggle for comfortable use at any time of day.
@@ -134,7 +138,7 @@ The parsed JSON pre-fills the Review Order form — the shopkeeper always review
 | **Styling / UI** | Tailwind CSS + Radix UI (shadcn-style components) |
 | **Forms & Validation** | React Hook Form + Zod |
 | **App Builder** | [Lovable](https://lovable.dev) (AI-assisted development, synced with GitHub) |
-| **AI Parsing** | Google Gemini `gemini-1.5-flash` (strict JSON output — natural language → structured order data) |
+| **AI Parsing** | Google Gemini `gemini flash` (strict JSON output — natural language → structured order data) |
 | **Database** | Firebase (real-time database / Firestore) with live sync |
 | **PWA / Offline Support** | `vite-plugin-pwa` — installable app with local caching, synced to Firebase on reconnect |
 | **QR & Receipts** | `qrcode` for generating scannable receipt QR codes |
