@@ -16,7 +16,6 @@ export function InstallPrompt() {
     const handler = (e: Event) => {
       e.preventDefault();
 
-      // Defer state updates slightly to ensure component is fully mounted
       setTimeout(() => {
         if (isMounted) {
           setDeferredPrompt(e as BeforeInstallPromptEvent);
@@ -50,7 +49,7 @@ export function InstallPrompt() {
   if (!showPrompt) return null;
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 z-50 rounded-xl bg-slate-900 p-4 text-white shadow-2xl flex items-center justify-between border border-slate-700 md:hidden">
+    <div className="fixed bottom-4 left-4 right-4 z-50 rounded-xl bg-slate-900 p-4 text-white shadow-2xl flex items-center justify-between border border-slate-700 max-w-lg mx-auto">
       <div>
         <p className="font-semibold text-sm">Add VoiceLedger to Home Screen</p>
         <p className="text-xs text-slate-300">Access your orders and debts anytime offline.</p>
@@ -59,12 +58,11 @@ export function InstallPrompt() {
       <div className="flex items-center gap-2">
         <button
           onClick={handleInstallClick}
-          className="ml-3 rounded-lg bg-emerald-500 px-3.5 py-2 text-xs font-semibold text-white hover:bg-emerald-600 transition-colors"
+          className="ml-3 rounded-lg bg-emerald-500 px-3.5 py-2 text-xs font-semibold text-white hover:bg-emerald-600 transition-colors whitespace-nowrap"
         >
           Install
         </button>
 
-        {/* Close Button */}
         <button
           onClick={handleDismiss}
           className="p-1 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-white transition-colors"
